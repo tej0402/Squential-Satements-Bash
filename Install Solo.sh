@@ -1,4 +1,5 @@
 #!/bin/bash
+#Credits_Tej
 red=`tput setaf 1`
 docker login
 docker run -d -p 8111:8080 -p 5003:5003 --name httpd httpd
